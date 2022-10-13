@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 95vw;
+    height: 100vh;
+    background-color: #000000;
+    margin: 1.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.img-header {
+    width: 60%;
+    height: 300px;
+}
+
+.input {
+    width: 25%;
+    height: 40px;
+    margin-left: 37%;
+    margin-bottom: 6%;
+    border-radius: 20px;
+    font-family: cursive;
+    font-size: 1rem;
+    padding-left: 10px;
+    box-shadow: 0 0 15px #00fff7;
+    border: 2px solid #079f9d;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 3rem;
+}
+
+.card {
+    width: 30%;
+    border-radius: 20px;
+    background-color: #079f9d;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 15px #00fff7;
+    margin-bottom: 30px;
+}
+
+.img {
+    border: 2px solid #079f9d;
+    width: 45%;
+    box-shadow: 0 0 10px #00fff7;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #00fff7;
+    font-family: cursive;
+    text-shadow: 0 0 2px #000000;
+    margin: 1rem;
+}
+
+
+.species {
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 6px;
+    color: #ffffff;
+}
+
+.status {
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 6px;
+    color: #ffffff;
+}
+
+.gender {
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin: 6px;
+    color: #ffffff;
+}
